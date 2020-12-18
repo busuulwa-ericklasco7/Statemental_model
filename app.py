@@ -19,7 +19,7 @@ def index():
 
 @app.route('/about')
 def about():
-    return "This is page is about my ML model."
+    return "This is a Machine Learning model which finds predictions of words \n By finding the probability of a statement passed being positive. \n It is trained on tweets and its using the Naive_bayes Classfier."
 
 
 @app.route('/predict', methods=['GET', "POST"])
