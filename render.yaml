@@ -1,0 +1,3 @@
+env:
+  - type: python
+    PYTHON_VERSION: 3.7.6
